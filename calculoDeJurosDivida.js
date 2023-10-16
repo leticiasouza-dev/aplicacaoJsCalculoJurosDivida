@@ -6,14 +6,12 @@ console.log("Aplicação de Juros:")
 
 let valorDevido = Number(input.question("Informe o valor devido: "));
 
-if(valorDevido <= 0){
+if(valorDevido <= 0) {
     console.log("Aplicação encerrada");
 
-} else{
+} else {
     let diasDeAtrasos = Number(input.question("Informe os dias de atraso"));
     let juros
-    
-    
     
         if(diasDeAtrasos <= 0){
             console.log("Aplicação encerrada")
